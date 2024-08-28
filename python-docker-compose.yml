@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  myapp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    volumes:
+      - .:/app
+    #command: python main.py
+    environment:
+      - TZ=America/Lima  # Cambia la zona horaria según tu ubicación
+      - INFLUXDB_BUCKET=ME_SmartX835
+      - INFLUXDB_ORG=subel_desarrollador
+      - INFLUXDB_TOKEN=FwgYjYBPknZasV4Aez-rSIxY2WippDIqVwflll_xkRDxkQ9BL3cWM0B0bUHk05cioSS0u1KUzvvHXuhXLspJpA==
