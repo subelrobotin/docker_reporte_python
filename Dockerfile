@@ -8,5 +8,5 @@ RUN pip install --no-cache-dir --upgrade -r /app/requirements.txt
 COPY . /app
 
 #CMD bash -c "while true; do dleep 1; done"
-CMD ["python", "/app/Reporte InfluxDB V2_6.py"]
+CMD ["python", "/app/Reporte InfluxDB V2_Oficial.py"]
 #ENTRYPOINT python main.py
