@@ -12,7 +12,7 @@ import time
 bucket = "ME_SmartX835"
 org = "subel_desarrollador"
 token = "FwgYjYBPknZasV4Aez-rSIxY2WippDIqVwflll_xkRDxkQ9BL3cWM0B0bUHk05cioSS0u1KUzvvHXuhXLspJpA=="
-url = "http://54.85.83.64:8086"
+url = "http://172.26.3.241:8086"
 
 client = influxdb_client.InfluxDBClient(
     url=url,
